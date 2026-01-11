@@ -1,2 +1,1 @@
-# Python
-Python assignments and projects
+# Python assignments and projects
