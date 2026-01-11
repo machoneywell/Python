@@ -1,0 +1,19 @@
+# Weekly Problem Set 1
+# Macayla Honeywell
+
+
+def fastGCD(x, y):
+    big = max(x,y)
+    small = min(x,y)
+    rem = big % small
+
+    while (rem != 0):
+        big = small
+        small = rem
+        rem = big % small
+        
+    return small
+print(fastGCD(150, 500))
+
+def threeGCD(x, y, z):
+    pass
